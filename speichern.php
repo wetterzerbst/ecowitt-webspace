@@ -1,6 +1,9 @@
-<?php date_default_timezone_set('Europe/Berlin'); ?><?PHP
-
-$mac = "00:00:00:00:00:00";
+<?php
+date_default_timezone_set('Europe/Berlin'); // Die Zeitzone sorgt dafür, das die Wetterdaten in der aktuellen Uhrzeit auf dem Server abgespeichert werden und verhindert eventuelle falsche Zeitangaben durch den Server!
+?>
+<?PHP
+$mac = "00:00:00:00:00:00"; // Nur die MAC-Adresse ändern.
+// AB HIER NICHTS MEHR ÄNDERN
 $md5hash = strtoupper(md5($mac));
 
 	if ($_POST["PASSKEY"] == $md5hash) 

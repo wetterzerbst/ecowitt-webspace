@@ -9,4 +9,4 @@ Es werden jeweils 4 Dateien gespeichert:
 Durch die Speicherung dieser Datenstruktur, kann z.B. die live.csv genutzt werden, um die aktuellen Wetterdaten im Web dar zu stellen.
 Die Tages- Montats und Jahresdarstellung dient der Auswertung der Daten des jeweiligen Zeitraums.
 
-Beispiel: https://wetterstation.mx/station/e/
+Beispiel: https://wetterstation.x10.mx/station/e/

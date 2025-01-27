@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Europe/Berlin'); 
-// Die Zeitzone sorgt dafür, das die Dateinbamen mit dem korrekten Datumsnamen auf dem Server abgespeichert werden und verhindert eventuelle falsche Zeitangaben durch den Server!
+// Die Zeitzone sorgt dafür, das die Dateinamen mit dem korrekten Datumsnamen auf dem Server abgespeichert werden und verhindert eventuelle falsche Zeitangaben durch den Server!
 $mac = "00:00:00:00:00:00"; // Nur die MAC-Adresse ändern.
 // AB HIER NICHTS MEHR ÄNDERN
 $md5hash = strtoupper(md5($mac));
